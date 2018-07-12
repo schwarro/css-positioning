@@ -17,13 +17,36 @@ body {
 
 img {
   max-width: 100%;
+  padding: 10px;
 }
 
 figure {
   margin: 0;
+  position: relative;
 }
 
 .film {
   width: 50%;
   margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border: 1px solid black;
+}
+
+.action-watch-later {
+  color: red;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.action-like {
+  color: red;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.film-details {
+  position: relative;
 }
